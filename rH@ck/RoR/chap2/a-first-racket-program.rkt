@@ -1,4 +1,5 @@
 #lang racket
+(provide (all-defined-out))
 #|
 I've installed DrRacket, learned that programs go into the definitions panel, and experimented
 with Racket in the interactions panel. We're ready to write our first real program, a simple
