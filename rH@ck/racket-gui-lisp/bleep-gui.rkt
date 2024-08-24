@@ -130,7 +130,7 @@
 
 (define control-pane (new horizontal-pane% (parent frame)
                                            (border 25)
-                                           (spaceing 25)))
+                                           (spacing 25)))
 (define duration-pane (new horizontal-pane% (parent control-pane)))
 (define duration-field (new number-field% (label "Duration ")
                                           (parent duration-pane)
